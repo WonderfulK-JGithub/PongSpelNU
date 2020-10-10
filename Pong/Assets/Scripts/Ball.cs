@@ -183,11 +183,11 @@ public class Ball : MonoBehaviour
             if(dif > 3)
             {
                 scoreScript.text2.color = Color.white;
-                SpawnImportantText("Player 2 is cathing up!", Color.green);
+                
             }
             else if(dif < -3)
             {
-                SpawnImportantText("Player 1 is cathing up!", Color.green);
+                
                 scoreScript.text1.color = Color.white;
             }
             else if(dif == 0)
